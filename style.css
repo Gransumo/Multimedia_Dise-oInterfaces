@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.bg-custom-color {
+	background-color:rgba(0, 17, 255, 0.479);
+	width: 100%;
+}
+
+footer {
+	background-color: #343a40; /* Cambia el color de fondo según tus preferencias */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+div {
+	min-width: fit-content;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	transition: transform 0.3s;
+}
